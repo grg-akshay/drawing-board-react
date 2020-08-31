@@ -1,0 +1,26 @@
+button.control-button {
+    color: #9C27B0;
+    background: white;
+    border: 1px solid purple;
+    border-radius: 50%;
+    flex-shrink: 0;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    outline: none;
+
+    &:hover {
+        color: #781d88;
+        background: rgb(241, 239, 239);
+    }
+
+    &.is-active {
+        border: 2px solid black;
+    }
+}
+
+.non-icon__button {
+    width: 58px;
+}

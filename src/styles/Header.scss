@@ -1,0 +1,14 @@
+@import '_mixins.scss';
+
+.header {
+    @include no-text-select;
+    
+    height: 64px;
+    min-width: 800px;
+    background-color: #9C27B0;
+    color: white;
+    font-family:Sacramento, cursive;
+    text-align: center;
+    line-height: 64px;
+    font-size: 24px;
+}
